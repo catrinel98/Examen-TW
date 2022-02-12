@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "back-end server pt. examen la TW",
+  "main": "server.mjs",
+  "private": true,
+  "author": "REBECA",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "16.0.0"
+  },
+  "scripts": {
+    "start": "node -r esm server.mjs"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15"
+  }
+}
